@@ -24,6 +24,10 @@ export function InputSelect<TItem>({
         return
       }
 
+      // if (selectedItem.id === "") {
+      //   return
+      // }
+
       consumerOnChange(selectedItem)
       setSelectedValue(selectedItem)
     },
